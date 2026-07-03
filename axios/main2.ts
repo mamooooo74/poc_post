@@ -6,12 +6,15 @@ const address = document.getElementById("address")
 
 const main = ()=>{
    if(searchBtn === null){
+    // もみ消しになるのでエラー投げること
     return
   }
   if (!(postcode instanceof HTMLInputElement)) {
+     // もみ消しになるのでエラー投げること
     return;
   }
    if (!(address instanceof HTMLInputElement)) {
+     // もみ消しになるのでエラー投げること
     return;
   }
   searchBtn.addEventListener("click", async () => {
