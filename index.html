@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>住所入力フォーム</title>
+</head>
+<body>
+  
+  <div>
+    <label for="postcode">郵便番号:</label>
+    <input
+    type="text"
+    id="postcode"
+    name="postcode"
+    maxlength="7"
+    autofocus
+    >
+  </div>
+  <div>
+    <input type="submit" value="検索" id="searchBtn">
+  </div>
+  
+    <div>
+      <label for="address">住所:</label>
+      <input
+        type="text"
+        id="address"
+        name="address"
+      >
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main2.js"></script>
+</body>
+</html>
